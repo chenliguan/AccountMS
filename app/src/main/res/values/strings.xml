@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main">家庭理财通</string>
+    <string name="app_name">家庭理财通</string>
+    <string name="login">登录</string>
+    <string name="addoutaccount">新增支出</string>
+    <string name="addinaccount">新增收入</string>
+    <string name="outaccountinfo">我的支出</string>
+    <string name="inaccountinfo">我的收入</string>
+    <string name="showinfo">数据管理</string>
+    <string name="sysset">系统设置</string>
+    <string name="accountflag">收支便签</string>
+    <string name="infomanage">收支管理</string>
+    <string name="flagmanage">便签管理</string>
+    <string name="title">标题</string>
+    <string name="title_login">系统登录</string>
+    <string name="title_register">注册</string>
+    <string name="text_register">注册</string>
+    <string name="input_pass">请输入正确的密码！</string>
+    <string name="pass_input">请输入密码</string>
+    <string name="id_input">请输入手机号</string>
+    <string name="msg_repress">再按一次退出程序</string>
+    <string name="pop_tip_title">提示信息</string>
+    <string name="pop_tip_content">请输入正确手机号码</string>
+    <string name="cancel">取消</string>
+    <string name="set">设置</string>
+    <string name="pwd_input">请输入密码</string>
+    <string name="pwds_input">请再次输入密码</string>
+    <string name="pwd_equal">两次输入密码不一致</string>
+    <string name="set_pass_ok">[密码]设置成功</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_input_tips">请输入便签，最多输入200字</string>
+    <string name="btn_submit">保存</string>
+    <string name="title_feek_back">新增便签</string>
+    <string name="add_flag_success">[新增便签]数据添加成功</string>
+    <string name="flag_input">请输入便签</string>
+    <string name="add_count_success">[新增收入]数据添加成功</string>
+    <string name="money_input">请输入收入金额</string>
+    <string name="money_put">请输入支出金额</string>
+    <string name="add_out_count_success">[新增支出]数据添加成功</string>
+    <string name="btn_modify">修改</string>
+    <string name="delete">删除</string>
+    <string name="delete_data_success">[数据]删除成功</string>
+    <string name="modify_data_success">[数据]修改成功</string>
+    <string name="phone_input">请输入手机号码</string>
+    <string name="register">注册</string>
+    <string name="modify">修改</string>
+    <string name="delete_flag_success">[便签数据]删除成功</string>
+    <string name="modify_flag_success">[便签数据]修改成功</string>
+    <string name="outinfo">支出信息</string>
+    <string name="ininfo">收入信息</string>
+    <string name="flaginfo">便签信息</string>
+
+</resources>

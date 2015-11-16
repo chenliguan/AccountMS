@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_grey"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/layout_title_to" />
+
+    <EditText
+        android:id="@+id/txtPwd"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/DIMEN_94PX"
+        android:layout_marginLeft="@dimen/DIMEN_32PX"
+        android:layout_marginRight="@dimen/DIMEN_32PX"
+        android:layout_marginTop="@dimen/DIMEN_36PX"
+        android:background="@drawable/bg_edit_shape"
+        android:hint="@string/pwd_input"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/DIMEN_20PX"
+        android:paddingRight="@dimen/DIMEN_20PX"
+        android:textColor="@color/text_grey"
+        android:textSize="@dimen/TEXT_SIZE_14SP" />
+
+    <EditText
+        android:id="@+id/txtPwds"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/DIMEN_94PX"
+        android:layout_marginLeft="@dimen/DIMEN_32PX"
+        android:layout_marginRight="@dimen/DIMEN_32PX"
+        android:layout_marginTop="@dimen/DIMEN_36PX"
+        android:background="@drawable/bg_edit_shape"
+        android:hint="@string/pwds_input"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/DIMEN_20PX"
+        android:paddingRight="@dimen/DIMEN_20PX"
+        android:textColor="@color/text_grey"
+        android:textSize="@dimen/TEXT_SIZE_14SP" />
+
+    <Button
+        android:id="@+id/btnSet"
+        style="@style/ButtonTheme"
+        android:layout_marginTop="@dimen/DIMEN_40PX"
+        android:text="@string/set" />
+
+</LinearLayout>

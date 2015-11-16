@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_grey"
+    android:orientation="vertical"
+    tools:context="com.guan.accountms.activity.RegisterActivity">
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/layout_title" />
+
+    <EditText
+        android:id="@+id/txtId"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/DIMEN_94PX"
+        android:layout_marginLeft="@dimen/DIMEN_32PX"
+        android:layout_marginRight="@dimen/DIMEN_32PX"
+        android:layout_marginTop="@dimen/DIMEN_36PX"
+        android:background="@drawable/bg_edit_shape"
+        android:hint="@string/id_input"
+        android:inputType="number"
+        android:paddingLeft="@dimen/DIMEN_20PX"
+        android:paddingRight="@dimen/DIMEN_20PX"
+        android:textColor="@color/text_grey"
+        android:textSize="@dimen/TEXT_SIZE_14SP" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/DIMEN_94PX"
+        android:layout_marginLeft="@dimen/DIMEN_32PX"
+        android:layout_marginRight="@dimen/DIMEN_32PX"
+        android:layout_marginTop="@dimen/DIMEN_36PX"
+        android:background="@drawable/bg_edit_shape"
+        android:hint="@string/pass_input"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/DIMEN_20PX"
+        android:paddingRight="@dimen/DIMEN_20PX"
+        android:textColor="@color/text_grey"
+        android:textSize="@dimen/TEXT_SIZE_14SP" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/ButtonTheme"
+        android:layout_marginTop="@dimen/DIMEN_40PX"
+        android:text="@string/register" />
+
+</LinearLayout>
+

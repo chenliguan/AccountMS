@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <!-- BaseButton -->
+    <style name="BaseButtonTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/DIMEN_88PX</item>
+        <item name="android:layout_marginLeft">@dimen/DIMEN_32PX</item>
+        <item name="android:layout_marginRight">@dimen/DIMEN_32PX</item>
+    </style>
+
+    <!-- CumtonButton -->
+    <style name="ButtonTheme" parent="BaseButtonTheme">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">@dimen/DIMEN_32PX</item>
+        <item name="android:background">@drawable/bg_btn_selector</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/TEXT_SIZE_14SP</item>
+    </style>
+
+    <!--  ShortLineHorizontal -->
+    <style name="TextView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/DIMEN_0.5PX</item>
+        <item name="android:background">@color/frame_line_grey</item>
+    </style>
+
+    <!--  AWash TAB -->
+    <style name="awash_tab">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/TEXT_SIZE_18SP</item>
+        <item name="android:textColor">@color/texts_grey</item>
+    </style>
+
+    <!--  ShortLineVertical -->
+    <style name="TextViewVertical">
+        <item name="android:layout_width">@dimen/DIMEN_2PX</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/frame_line_grey</item>
+    </style>
+</resources>

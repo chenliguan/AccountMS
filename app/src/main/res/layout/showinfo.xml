@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.guan.o2o.activity.AWashActivity">
+
+    <include
+        android:id="@+id/rllyt_title"
+        layout="@layout/layout_title" />
+
+    <TextView
+        android:id="@+id/tv_line"
+        style="@style/TextView"
+        android:layout_height="@dimen/DIMEN_2PX"
+        android:layout_below="@id/rllyt_title" />
+
+    <LinearLayout
+        android:id="@+id/llyt_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_88PX"
+        android:layout_below="@id/tv_line"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/DIMEN_78PX">
+
+            <TextView
+                android:id="@+id/btnoutinfo"
+                style="@style/awash_tab"
+                android:text="@string/outinfo" />
+
+            <TextView style="@style/TextViewVertical" />
+
+            <TextView
+                android:id="@+id/btnininfo"
+                style="@style/awash_tab"
+                android:text="@string/ininfo" />
+
+            <TextView style="@style/TextViewVertical" />
+
+            <TextView
+                android:id="@+id/btnflaginfo"
+                style="@style/awash_tab"
+                android:text="@string/flaginfo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <ImageView
+                android:id="@+id/iv_bottom_line"
+                android:layout_width="@dimen/DIMEN_200PX"
+                android:layout_height="@dimen/DIMEN_10PX"
+                android:background="@color/main_blue"
+                android:contentDescription="@null" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/lvinfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/DIMEN_20PX"
+        android:layout_below="@id/llyt_title"
+        android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+</RelativeLayout>
